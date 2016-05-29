@@ -59,7 +59,7 @@ body {
   -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
           flex-direction: column-reverse;
-  margin: 0 20px 0 0;
+  margin: 0 20px 10px 0;
 }
 
 .card__name {
@@ -68,6 +68,9 @@ body {
   padding: 0 0 10px 0;
 }
 
+.card__map a {
+  display: block;
+}
 .card__map img {
   border-radius: 4px;
   width: 100%;
